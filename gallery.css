@@ -1,0 +1,38 @@
+.bg{
+	background-image: url(../images/bg3.jpg);
+	text-align: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.navi{
+	text-align: center;
+	font-family: Times New Roman;
+	font-size: 35px;
+	background-color: black;
+}
+.gallery{
+	background-color: transparent;
+	color: white;
+}
+a{
+	color: white;
+	text-decoration: none;
+	background-color: transparent;
+	font-weight: bold;
+	margin: 0.5%;
+}
+a.active, .navi a:hover{
+	background-color:transparent;
+	color: white;
+	width: 100%;
+}
+.photos{
+	margin-left: auto;
+	margin-right: auto;
+}
+.pics{
+	height: 250px;
+	width: 250px;
+	border-spacing: 50px;
+	margin: 1%;
+}
